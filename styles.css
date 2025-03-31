@@ -1,0 +1,41 @@
+.box {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: blueviolet;
+}
+#box1:hover {
+    background-color: rgb(76, 0, 255);
+}
+#box2:hover{
+    background-color: rgb(176, 17, 17);
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+    color: rgb(219, 0, 0);
+}
